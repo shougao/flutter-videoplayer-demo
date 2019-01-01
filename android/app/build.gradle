@@ -38,6 +38,12 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    android {
+        compileOptions {
+            sourceCompatibility 1.8
+            targetCompatibility 1.8
+        }
+    }
 }
 
 flutter {
